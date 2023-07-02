@@ -1,6 +1,6 @@
 {
   "name": "insta-spider",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "./dist/cjs/index.js",
   "module": "./dist/esm/index.js",
@@ -39,7 +39,6 @@
   "dependencies": {
     "@types/node": "^20.3.2",
     "axios": "^1.4.0",
-    "fs": "^0.0.1-security",
     "https-proxy-agent": "^7.0.0",
     "ts-node": "^10.9.1"
   },
