@@ -14,13 +14,28 @@
     "prepare": "npm run build",
     "prepublishOnly": "npm run build"
   },
-  "keywords": [],
+  "keywords": [
+    "instagram",
+    "reels",
+    "scraper",
+    "downloader",
+    "node.js",
+    "typescript",
+    "npm",
+    "library",
+    "instagram-api",
+    "instagram-scraper"
+  ],
   "files": [
     "dist",
     "README.md"
   ],
   "author": "Shobhit Gupta (@shobhitexe)",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/shobhitexe/insta-spider"
+  },
   "dependencies": {
     "@types/node": "^20.3.2",
     "axios": "^1.4.0",
