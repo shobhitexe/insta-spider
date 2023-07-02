@@ -11,10 +11,15 @@
     "build": "npm run build:esm && npm run build:cjs",
     "build:esm": "tsc --outDir dist/esm",
     "build:cjs": "tsc --module commonjs --outDir dist/cjs",
-    "prepare": "npm run build"
+    "prepare": "npm run build",
+    "prepublishOnly": "npm run build"
   },
   "keywords": [],
-  "author": "",
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "author": "Shobhit Gupta (@shobhitexe)",
   "license": "ISC",
   "dependencies": {
     "@types/node": "^20.3.2",
