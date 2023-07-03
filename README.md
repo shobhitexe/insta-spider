@@ -1,9 +1,9 @@
 # Insta-Spider
 
+Insta-Spider is a powerful npm library built with TypeScript that allows you to download Instagram Reels with ease. With its simple and intuitive interface, you can seamlessly integrate it into your Node.js projects and start scraping Instagram Reels effortlessly.
+
 [![npm version](https://img.shields.io/npm/v/insta-spider.svg?style=flat-square)](https://www.npmjs.com/package/insta-spider)
 [![npm downloads](https://img.shields.io/npm/dm/insta-spider.svg?style=flat-square)](https://www.npmjs.com/package/insta-spider)
-
-Insta-Spider is a powerful npm library built with TypeScript that allows you to download Instagram Reels with ease. With its simple and intuitive interface, you can seamlessly integrate it into your Node.js projects and start scraping Instagram Reels effortlessly.
 
 ## Features
 - Download Instagram Reels programmatically.
