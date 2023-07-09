@@ -34,8 +34,15 @@ export async function downloadReel(link: string, cookie: string) {
     // },
 
     const videoDataJson = await videoData.data;
+    const { graphql, items } = videoDataJson;
 
-    return videoDataJson.graphql.shortcode_media.video_url;
+    if (graphql?.shortcode_media?.video_url) {
+      return graphql.shortcode_media.video_url;
+    }
+
+    if (items?.[0]?.video_versions?.[0]?.url) {
+      return items[0].video_versions[0].url;
+    }
   } catch (err) {
     return { error: `Error fetching video ${err}` };
   }
