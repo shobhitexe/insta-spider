@@ -23,7 +23,7 @@ To use Insta-Spider in your Node.js application, follow these steps:
 import { instaSpider } from "insta-spider";
 
 (async () => {
-  const spider = await instaSpider("Cookies.....");
+  const spider = await instaSpider(["Cookie 1",["Cookie 2],[.....]);
 
   const downloadUrl = await spider.downloadReel(
     "https://www.instagram.com/reel/xxxxxxxxxxx/"
