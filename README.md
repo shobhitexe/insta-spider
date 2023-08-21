@@ -35,7 +35,7 @@ import { instaSpider } from "insta-spider";
 ```
 
 Please ensure that you replace 'https://www.instagram.com/reel/xxxxxxxxxxxxx/' with the actual URL of the Instagram Reel you intend to download.
-Additionally, replace 'Cookies......' with your Instagram cookies. While the library can work without cookies, it is recommended to provide them for enhanced safety and reliability.
+Additionally, replace `["Cookie 1"] , ["Cookie 2] , [.....]` with your Instagram cookies it accept cookie or array of cookies. While the library can work without cookies, it is recommended to provide them for enhanced safety and reliability.
 
 ## API
 ### instaSpider(cookies: string)
